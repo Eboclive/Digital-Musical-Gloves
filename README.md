@@ -2,6 +2,8 @@
 Gloves used to create notes, chords, etc
 Digital Musical Trigger Gloves.
 
+This project is part of a Masters Degree in Audio Technology being studied at Wolverhampton University.
+
 The idea for the Digital Music Gloves was inspired by the thought of being able to play music in any situation, whether that be on a train, in a car, waiting at a bus stop, waiting anywhere, on a mountain, etc, etc. The principal idea is that the user would wear some gloves, which have pressure sensitive pads, or triggers, on each finger, thumb, thumb knuckle and heel of the palm. This would enable the user to touch anything around them to trigger a signal. The basic principal for use of these gloves is to have key notes, along with major/minor triggers on the left hand fingers, thumb, thumb knuckle and heel of the palm. These triggers set the parameters for the notes produced by the right hand triggers (pressure sensitive pads), which are situated in each fingertip, along with one on the heel of the palm. 
 This idea has been explored previously, but the different notes were made by assigning a unique number to each pressure pad (trigger). The various combinations of left and right hand pads would create a unique number by combining the two numbers of each pad. This number formed the basis of a particular note, which was produced via midi, through an interface. While the unique number system worked, it was felt that a digital system of identifying the notes via the combination of trigger pads would be a more convenient system. 
 
