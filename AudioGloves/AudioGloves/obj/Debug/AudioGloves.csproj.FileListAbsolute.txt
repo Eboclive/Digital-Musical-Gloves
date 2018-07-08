@@ -1,0 +1,11 @@
+c:\users\kevin\documents\visual studio 2015\Projects\AudioGloves\AudioGloves\bin\Debug\AudioGloves.exe.config
+c:\users\kevin\documents\visual studio 2015\Projects\AudioGloves\AudioGloves\bin\Debug\AudioGloves.exe
+c:\users\kevin\documents\visual studio 2015\Projects\AudioGloves\AudioGloves\bin\Debug\AudioGloves.pdb
+c:\users\kevin\documents\visual studio 2015\Projects\AudioGloves\AudioGloves\obj\Debug\AudioGloves.Properties.Resources.resources
+c:\users\kevin\documents\visual studio 2015\Projects\AudioGloves\AudioGloves\obj\Debug\AudioGloves.csproj.GenerateResource.Cache
+c:\users\kevin\documents\visual studio 2015\Projects\AudioGloves\AudioGloves\obj\Debug\AudioGloves.exe
+c:\users\kevin\documents\visual studio 2015\Projects\AudioGloves\AudioGloves\obj\Debug\AudioGloves.pdb
+c:\users\kevin\documents\visual studio 2015\Projects\AudioGloves\AudioGloves\obj\Debug\AudioGloves.Form1.resources
+c:\users\kevin\documents\visual studio 2015\Projects\AudioGloves\AudioGloves\bin\Debug\Midi.dll
+c:\users\kevin\documents\visual studio 2015\Projects\AudioGloves\AudioGloves\bin\Debug\Midi.xml
+C:\Users\Kevin\documents\visual studio 2015\Projects\AudioGloves\AudioGloves\obj\Debug\AudioGloves.csprojResolveAssemblyReference.cache
