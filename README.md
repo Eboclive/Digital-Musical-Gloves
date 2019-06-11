@@ -1,10 +1,18 @@
-# Digital-Musical-Gloves
-Gloves used to create notes, chords, etc
-Digital Musical Trigger Gloves.
+
+  Digital Musical Trigger Gloves.
+
+Dave Corsie 1628876
+
+MSc Audio Technology
+7MU009  Music Computing 2017/18
+Assignment 1 – Portfolio.
+
+Introduction
 
 The idea for the Digital Music Gloves was inspired by the thought of being able to play music in any situation, whether that be on a train, in a car, waiting at a bus stop, waiting anywhere, on a mountain, etc, etc. The principal idea is that the user would wear some gloves, which have pressure sensitive pads, or triggers, on each finger, thumb, thumb knuckle and heel of the palm. This would enable the user to touch anything around them to trigger a signal. The basic principal for use of these gloves is to have key notes, along with major/minor triggers on the left hand fingers, thumb, thumb knuckle and heel of the palm. These triggers set the parameters for the notes produced by the right hand triggers (pressure sensitive pads), which are situated in each fingertip, along with one on the heel of the palm. 
 This idea has been explored previously, but the different notes were made by assigning a unique number to each pressure pad (trigger). The various combinations of left and right hand pads would create a unique number by combining the two numbers of each pad. This number formed the basis of a particular note, which was produced via midi, through an interface. While the unique number system worked, it was felt that a digital system of identifying the notes via the combination of trigger pads would be a more convenient system. 
 
+Formatting and Key for glove pads/triggers
 
 The left hand pads/triggers are arranged in a particular order to give the full chromatic range, as key notes (roots), including dominant, major and minor alterations. The order is as follows;
 
@@ -44,7 +52,11 @@ The left hand pads/triggers are arranged in a particular order to give the full 
 34.	Little finger and palm – G# (dominant)
 35.	Little finger, palm and thumb knuckle – G# Major
 36.	Little finger, palm and thumb – G# minor
+
+This can be represented in a table format as follows;
+
  
+Figure 1. Key for Left hand pads/triggers.
 
 It can be seen that there are 36 different combinations, to reflect the 12 chromatic keys, along with the dominant, major and minor alternatives. It is noted that there is, as yet, no option to give a minor 7b5 chord (or arpeggio) combination. At this point, however, no notes have been produced. The left hand has only given the key, ready for the right hand pads/triggers to actually generate the correct notes from the given key stated by the right hand. The right hand fingers can play individual notes, or multiple notes together, to create a chord. From this point, the right hand fingers will be used in conjunction with the left hand fingers as follows;
 
@@ -134,9 +146,11 @@ Thumb – root (Ab), first finger – 3rd (C), second finger – 5th (Eb), third
 Key of G# (Ab) minor (left hand number 36)
 Thumb – root (Ab), first finger – 3rd (Cb), second finger – 5th (Eb), third finger – 7th (Gb), little finger – 9th (Bb).
 
-The above information gives the combinations of notes used to make chords/arpeggios using the right hand to create the root, 3rd, 5th, 7th and 9th note combinations. By also adding a palm pad/trigger, the other notes of the key can be added, ie thumb and palm can give the 2nd note of a key, thumb, 1st finger and palm can give the 4th note of a key.
+The above information gives the combinations of notes used to make chords/arpeggios using the right hand to create the root, 3rd, 5th, 7th and 9th note combinations. By also adding a palm pad/trigger, the other notes of the key can be added, ie thumb and palm can give the 2nd note of a key, thumb, 1st finger and palm can give the 4th note of a key. The following diagram can further explain this;
 
  
+Figure 2. Key for Right hand finger triggers/pads.
+
 At this point, it can be noted that while all 12 chromatic keys can be created on the left hand, there is still no option for creating all 12 notes by using the pads/trigger on the right hand. An option may be to add a thumb knuckle trigger (as is already on the left hand), which could be used to sharpen whatever note is being produced at the time. This option would only work in a single note setting, as once more than one note is being triggered, the option to sharpen would create confusion, sharpening all notes played. 
 Another shortcoming with the gloves as they stand is that only one octave is being covered (other than the 9th notes created in a chord or arpeggio). It has been thought that by adding a degree of pressure sensitivity to the left hand triggers, or even a two-position sensor (pressing harder gives the next position), an octave switch could be incorporated, expanding the range of notes available. As each musical note has a given midi number (eg middle C – C4 is given a midi number of 60), the pads/triggers could be programmed to work at any octave by stating the given range of midi notes to be played.
-  
+
